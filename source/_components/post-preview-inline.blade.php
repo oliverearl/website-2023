@@ -1,6 +1,6 @@
 <div class="flex flex-col mb-4">
     <p class="text-gray-700 font-medium my-2">
-        {{ $post->getDate()->format('F j, Y') }}
+        <time datetime="{{ $post->getDate()->format('Y-m-d') }}">{{ $post->getDate()->format('F j, Y') }}</time>
     </p>
 
     <h2 class="text-3xl mt-0">
