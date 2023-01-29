@@ -4,6 +4,8 @@
     @php $featuredPost = $posts->where('featured', true)->first(); @endphp
 
     @if ($featuredPost)
+      <h1>Featured Post</h1>
+
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
                 <img
@@ -39,6 +41,8 @@
 
         <hr class="border-b my-6" />
     @endif
+
+    <h1>Latest Posts</h1>
 
     @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">

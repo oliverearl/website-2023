@@ -1,6 +1,8 @@
 @extends('_layouts.main')
 
 @php
+    use Illuminate\Support\Str;
+
     $page->type = 'article';
 @endphp
 
@@ -17,11 +19,12 @@
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
+          @php $categoryName = Str::headline($category); @endphp
             <a
                 href="{{ "/blog/categories/{$category}" }}"
-                title="View posts in {{ $category }}"
+                title="View posts in {{ $categoryName }}"
                 class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
-            >{{ $category }}</a>
+            >{{ $categoryName }}</a>
         @endforeach
     @endif
 
