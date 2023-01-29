@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: A brief analysis of my use of Bloom's Taxonomy.
+title: A brief analysis of my use of Bloom's Taxonomy
 date: 2020-04-30
 description: "Part of my trainee teacher series: a post on Bloom's Taxonomy and how I use it in my lesson plans."
 featured: false
