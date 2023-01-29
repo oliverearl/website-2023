@@ -10,13 +10,13 @@ pagination:
 @section('body')
     <h1>Blog</h1>
 
-    <hr class="border-b my-6">
+    <hr class="border-b my-6" />
 
     @foreach ($pagination->items as $post)
         @include('_components.post-preview-inline')
 
         @if ($post !== $pagination->items->last())
-            <hr class="border-b my-6">
+            <hr class="border-b my-6" />
         @endif
     @endforeach
 
@@ -31,10 +31,11 @@ pagination:
             @endif
 
             @foreach ($pagination->pages as $pageNumber => $path)
+              @php $class = $pagination->currentPage === $pageNumber ? 'text-blue-600' : 'text-blue-700'; @endphp
                 <a
                     href="{{ $path }}"
                     title="Go to Page {{ $pageNumber }}"
-                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3 {{ $pagination->currentPage === $pageNumber ? 'text-blue-600' : 'text-blue-700' }}"
+                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3 {{ $class }}"
                 >{{ $pageNumber }}</a>
             @endforeach
 
