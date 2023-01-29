@@ -5,7 +5,7 @@ namespace App\Listeners;
 use TightenCo\Jigsaw\Collection\CollectionItem;
 use TightenCo\Jigsaw\Jigsaw;
 
-class GenerateIndex
+class GenerateIndex extends BaseListener
 {
     /**
      * Generate an index.json file with all posts.

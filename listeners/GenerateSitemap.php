@@ -6,7 +6,7 @@ use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
 use Illuminate\Support\Str;
 
-class GenerateSitemap
+class GenerateSitemap extends BaseListener
 {
     /**
      * Exclude paths from the sitemap.
