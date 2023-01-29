@@ -5,7 +5,7 @@ use TightenCo\Jigsaw\Collection\CollectionItem;
 use TightenCo\Jigsaw\PageVariable;
 
 return [
-    'baseUrl' => 'http://localhost',
+    'baseUrl' => 'http://localhost:8000',
     'production' => false,
     'siteName' => 'Oliver Earl',
     'siteDescription' => 'UK based software engineer and qualified CS teacher.',
