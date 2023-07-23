@@ -13,34 +13,37 @@ description: A little bit about me
   />
 
   <p class="mb-6">
-    I'm an experienced, industry-harden full-stack developer with a passion for clean, readable code and documentation,
-    built upon a concrete academic foundation and additional years of classroom CS teaching experience.
+    Hi! I'm Ollie. I'm an experienced, industry-hardened software engineer with a passion for clean, performant, and
+    test-backed code, built upon a concrete academic foundation and additional years of experience teaching computer
+    science.
+  </p>
+
+  <p class="mb-6">
+    This website is a humble scratchpad for all of my thoughts on software engineering, teaching, and other
+    topics that are of interest to me. I used to blog more seriously and frequently on more popular platforms in the
+    past, but this started to feel like a chore and <em>honestly </em>I'd rather spend my time coding than writing.
   </p>
 
   <h2 class="mb-2">By day</h2>
   <p class="mb-6">
-    I currently work as a software engineer at
-    <a href="https://www.stickeetechnology.com" target="_blank">Stickee Technology</a>, with a serious interest in
-    building robust and performative experiences on the web and beyond.
+    I currently work as a full-stack web developer at
+    <a href="https://www.stickeetechnology.com" target="_blank">Stickee Technology</a>, the titanium arm of the company
+    that builds the special projects that our big data clients need to thrive. There emerged my serious interest
+    in building future-proof, inordinately tested, high performance experiences on the web and beyond, as well as
+    maintaining and supporting many of our open source initiatives.
   </p>
 
   <p class="mb-6">
-    In addition, I volunteer my time with the
-    <a href="https://www.nightline.ac.uk" target="_blank">Nightline Association</a> as part of their software
-    engineering team, where I have the pleasure of programming innovative IT and software solutions for student-led
-    Nightlines across the UK.
-  </p>
-
-  <p class="mb-6">
-    <strong>Some of the technologies I love working with:</strong> Laravel, Vue.js, Nuxt, Tailwind, TypeScript, and
-    more recently, Inertia.js.
+    <strong>Some of the technologies I love working with include:</strong> Laravel, Vue.js, Nuxt, Tailwind, TypeScript,
+    Inertia.js, and more recently, the incredible combination of Dart and Flutter.
   </p>
 
   <h2 class="mb-2">By night</h2>
   <p class="mb-6">
-    Mental health is a cause close to my heart. I am the twice elected Wales Regional Coordinator within the
-    aforementioned Nightline Association; the aim of which is ensuring that all students have someone to talk to
-    without judgment and in complete anonymity.
+    Mental health awareness and suicide intervention are causes close to my heart and as such I am a senior member of
+    the <a href="https://www.nightline.ac.uk" target="_blank">Nightline Association</a>'s software development team;
+    comprised entirely of volunteers. Providing the technology needed to ensure students across the country have
+    someone to talk in an anonymous, judgement-free environment.
   </p>
 
   <p class="mb-6">
@@ -52,6 +55,12 @@ description: A little bit about me
 
   <p class="mb-6">
     Lastly, I’m hoping to some day release numerous video games written in Godot under my indie game studio,
-    <a href="https://www.petrobolos.com" target="_blank">Petrobolos</a>. Emphasis on some day!
+    <a href="https://www.petrobolos.com" target="_blank">Petrobolos</a>. Emphasis on <em>some day</em>!
+  </p>
+
+  <h2 class="mb-2">Still curious?</h2>
+  <p class="mb-6">
+    If you still want to learn more about my work, or are interesting in hiring me, I'd love it if you could reach out
+    to me over on <a href="https://www.linkedin.com/in/oliverearl" target="_blank">LinkedIn</a>. Thanks so much!
   </p>
 @endsection
