@@ -2,4 +2,4 @@
 
 # 2023 Website
 
-Work in progress.
+Personal blog written using Jigsaw. More information to follow once I can figure out something to write here!
