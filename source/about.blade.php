@@ -35,7 +35,7 @@ description: A little bit about me
 
   <p class="mb-6">
     <strong>Some of the technologies I love working with include:</strong> Laravel, Vue.js, Nuxt, Tailwind, TypeScript,
-    Inertia.js, and more recently, the incredible combination of Dart and Flutter.
+    and Inertia.js.
   </p>
 
   <h2 class="mb-2">By night</h2>
