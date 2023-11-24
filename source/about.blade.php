@@ -21,7 +21,7 @@ description: A little bit about me
   <p class="mb-6">
     This website is a humble scratchpad for all of my thoughts on software engineering, teaching, and other
     topics that are of interest to me. I used to blog more seriously and frequently on more popular platforms in the
-    past, but this started to feel like a chore and <em>honestly </em>I'd rather spend my time coding than writing.
+    past, but this started to feel like a chore, and <em>honestly </em>I'd rather spend my time coding than writing.
   </p>
 
   <h2 class="mb-2">By day</h2>
@@ -42,7 +42,7 @@ description: A little bit about me
   <p class="mb-6">
     Mental health awareness and suicide intervention are causes close to my heart and as such I am a senior member of
     the <a href="https://www.nightline.ac.uk" target="_blank">Nightline Association</a>'s software development team;
-    comprised entirely of volunteers. Providing the technology needed to ensure students across the country have
+    composed entirely of volunteers. Providing the technology needed to ensure students across the country have
     someone to talk in an anonymous, judgement-free environment.
   </p>
 
