@@ -18,4 +18,12 @@
         title="Read more - {{ $post->title }}"
         class="uppercase font-semibold tracking-wide mb-2"
     >Read</a>
+
+  <p class="text-gray-700 text-xl md:mt-0" >
+    @foreach($post->categories as $category)
+      <a class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px" href="/blog/categories/{{ $category }}">
+        {{ str($category)->headline() }}
+      </a>
+    @endforeach
+  </p>
 </div>
