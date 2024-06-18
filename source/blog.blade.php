@@ -20,6 +20,7 @@ pagination:
         @endif
     @endforeach
 
+
     @if ($pagination->pages->count() > 1)
         <nav class="flex text-base my-8">
             @if ($previous = $pagination->previous)
