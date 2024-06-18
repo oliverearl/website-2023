@@ -5,7 +5,6 @@ title: PHP and Composer on the Windows Subsystem for Linux
 date: 2020-09-30
 description: "A guide for getting PHP and Composer up and running under WSL"
 featured: false
-cover_image: /assets/img/posts/php-and-composer-on-the-windows-subsystem-for-linux/cover.jpg
 categories: [php, computing, software-engineering]
 ---
 

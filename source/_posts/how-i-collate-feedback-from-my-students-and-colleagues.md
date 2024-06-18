@@ -5,7 +5,6 @@ title: How I collate feedback from my students and colleagues
 date: 2020-04-30
 description: "Part of my trainee teacher series: a post on the collation of feedback from students and colleagues"
 featured: false
-cover_image: /assets/img/posts/tttt.jpg
 categories: [teaching]
 ---
 

@@ -5,7 +5,6 @@ title: Introducing an unofficial Hashnode API library for PHP
 date: 2020-12-01
 description: "Introducing a PHP library for the Hashnode API"
 featured: false
-cover_image: /assets/img/posts/introducing-an-unofficial-hashnode-api-library-for-php/cover.png
 categories: [php, laravel, software-engineering]
 ---
 

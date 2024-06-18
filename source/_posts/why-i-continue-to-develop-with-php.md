@@ -5,7 +5,6 @@ title: Why I continue to develop with PHP
 date: 2020-09-29
 description: "Why I continue to develop with the PHP programing language in the year 2020"
 featured: false
-cover_image: /assets/img/posts/why-i-continue-to-develop-with-php/cover.jpg
 categories: [php, laravel, software-engineering]
 ---
 

@@ -5,7 +5,6 @@ title: "You should be coding"
 date: 2023-07-16
 description: "Programming is the best way to get better at programming, so why are you not doing it?"
 featured: false
-cover_image: /assets/img/posts/you-should-be-coding/cover.jpg
 categories: [software-engineering]
 ---
 

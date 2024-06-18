@@ -5,7 +5,6 @@ title: Securing subject specific knowledge is an unending battle but a vital one
 date: 2020-04-29
 description: "Part of my trainee teacher series: the difficulties around pushing subject-specific knowledge"
 featured: false
-cover_image: /assets/img/posts/tttt.jpg
 categories: [teaching]
 ---
 

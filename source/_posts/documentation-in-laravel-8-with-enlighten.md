@@ -5,7 +5,6 @@ title: Documentation in Laravel 8 with Enlighten
 date: 2020-10-11
 description: "Generating documentation using the Enlighten package in Laravel 8"
 featured: false
-cover_image: /assets/img/posts/documentation-in-laravel-8-with-enlighten/cover.jpg
 categories: [php, laravel, software-engineering]
 ---
 

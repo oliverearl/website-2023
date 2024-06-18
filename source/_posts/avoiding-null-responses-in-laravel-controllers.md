@@ -5,7 +5,6 @@ title: Avoiding void responses in Laravel controllers
 date: 2022-08-10
 description: The problems with returning void in Laravel HTTP controllers.
 featured: true
-cover_image: /assets/img/posts/avoiding-void-responses-in-laravel-controllers/cover.jpg
 categories: [php, laravel, software-engineering]
 ---
 

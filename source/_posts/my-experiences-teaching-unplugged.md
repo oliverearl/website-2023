@@ -5,7 +5,6 @@ title: My experiences teaching unplugged
 date: 2020-04-28
 description: "Part of my trainee teacher series: a post on teaching using the unplugged methodology"
 featured: false
-cover_image: /assets/img/posts/tttt.jpg
 categories: [teaching]
 ---
 

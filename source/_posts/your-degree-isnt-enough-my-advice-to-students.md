@@ -5,9 +5,9 @@ title: "Your degree isn't enough: my advice to students"
 date: 2020-10-18
 description: "My advice to university students as to why their degree is not enough"
 featured: false
-cover_image: /assets/img/posts/your-degree-isnt-enough-my-advice-to-students/cover.jpg
 categories: [software-engineering, teaching]
 ---
+
 A degree, whether it be in computer science, software engineering, mathematics or a related field is often marketed as 
 the golden ticket for those wanting a lucrative career in programming. An often extortionately expensive goose that
 will eventually lay golden eggs for years to come.

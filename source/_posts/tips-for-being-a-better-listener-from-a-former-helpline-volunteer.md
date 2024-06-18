@@ -5,7 +5,6 @@ title: Tips for being a better listener from a former helpline volunteer
 date: 2020-10-01
 description: "A bunch of tips for being a better listener from a former helpline volunteer"
 featured: false
-cover_image: /assets/img/posts/tips-for-being-a-better-listener-from-a-former-helpline-volunteer/cover.jpg
 categories: [mental-health]
 ---
 

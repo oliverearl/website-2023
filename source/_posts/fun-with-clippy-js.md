@@ -5,7 +5,6 @@ title: Fun with Clippy.js
 date: 2020-10-11
 description: "Having fun with the jQuery Clippy.js library"
 featured: false
-cover_image: /assets/img/posts/fun-with-clippy-js/cover.jpg
 categories: [javascript, software-engineering]
 ---
 

@@ -5,7 +5,6 @@ title: What I learned from the Hashnode Writing Bootcamp
 date: 2020-11-25
 description: "My takeaways from the first Hashnode Writing Bootcamp"
 featured: false
-cover_image: /assets/img/posts/what-i-learned-from-the-hashnode-writing-bootcamp/cover.jpg
 categories: [software-engineering]
 ---
 

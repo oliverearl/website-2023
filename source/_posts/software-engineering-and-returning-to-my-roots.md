@@ -5,7 +5,6 @@ title: Software engineering and returning to my roots
 date: 2021-05-03
 description: Changing my career direction and returning to software engineering
 featured: false
-cover_image: /assets/img/posts/software-engineering-and-returning-to-my-roots/cover.jpg
 categories: [software-engineering]
 ---
 

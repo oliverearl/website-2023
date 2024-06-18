@@ -5,7 +5,6 @@ title: Improve your browser security in 5 minutes
 date: 2020-10-11
 description: "Improving your browser security with a few simple steps"
 featured: false
-cover_image: /assets/img/posts/improve-your-browser-security-in-5-minutes/cover.jpg
 categories: [computing]
 ---
 

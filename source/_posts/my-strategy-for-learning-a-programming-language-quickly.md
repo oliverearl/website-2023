@@ -5,7 +5,6 @@ title: My strategy for learning a programming language quickly
 date: 2020-10-25
 description: "A guide for picking up a new programming language quickly - not mastering it, but basic proficiency"
 featured: false
-cover_image: /assets/img/posts/my-strategy-for-learning-a-programming-language-quickly/cover.jpg
 categories: [software-engineering, teaching]
 ---
 

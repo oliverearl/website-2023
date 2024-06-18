@@ -5,7 +5,6 @@ title: Strategies for questioning when you are having difficulty learning names
 date: 2020-04-27
 description: "Part of my trainee teacher series: strategies for learning names when you find it tricky"
 featured: false
-cover_image: /assets/img/posts/tttt.jpg
 categories: [teaching]
 ---
 
