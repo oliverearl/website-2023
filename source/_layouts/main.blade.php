@@ -32,7 +32,7 @@
   <link rel="mask-icon" href="/assets/images/icons/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="application-name" content="&nbsp;"/>
+  <meta name="application-name" content="{{ $page->siteName }}"/>
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="msapplication-TileImage" content="/assets/images/icons/mstile-144x144.png" />
   <meta name="msapplication-square150x150logo" content="/assets/images/icons/mstile-150x150.png" />
@@ -46,12 +46,18 @@
     <!-- Insert analytics code here -->
   @endif
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-  <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-
   <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
+
+  <link rel="home" href="{{ $page->baseUrl }}" />
+  <link rel="icon" href="/favicon.ico" />
+  <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed" />
+
+  @if ($page->production)
+    {{-- Analytics code goes here! --}}
+  @endif
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
 </head>
 
 <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
@@ -98,3 +104,4 @@
 @stack('scripts')
 </body>
 </html>
+

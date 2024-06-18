@@ -114,7 +114,10 @@ input[name='search'] {
 }
 
 input[name='search'].transition-border {
-  border-radius: .5rem .5rem 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
 }
 
 .fade-enter-active {
