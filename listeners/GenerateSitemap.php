@@ -1,30 +1,28 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Listeners;
 
 use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
 use Illuminate\Support\Str;
 
-class GenerateSitemap extends BaseListener
+final class GenerateSitemap
 {
     /**
-     * Exclude paths from the sitemap.
+     * Files and folders to be excluded from the sitemap. Wildcard characters * supported.
      *
      * @var array<int, string>
      */
-    protected const EXCLUDE = [
+    private array $exclude = [
         '/assets/*',
         '*/favicon.ico',
-        '*/404*',
+        '*/404*'
     ];
 
     /**
-     * Generate a sitemap.xml file.
-     *
-     * @param \TightenCo\Jigsaw\Jigsaw $jigsaw
-     *
-     * @return void
+     * Generate the sitemap.
      */
     public function handle(Jigsaw $jigsaw): void
     {
@@ -39,15 +37,19 @@ class GenerateSitemap extends BaseListener
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
 
         collect($jigsaw->getOutputPaths())
-            ->reject(static fn (string $path): bool => Str::is(self::EXCLUDE, $path))
-            ->each(static function (string $path) use ($baseUrl, $sitemap): void {
-                $sitemap->addItem(
-                    location: rtrim($baseUrl, '/') . $path,
-                    lastModified: time(),
-                    changeFrequency: Sitemap::DAILY,
-                );
+            ->reject(fn(?string $path): bool => $this->isExcluded($path))
+            ->each(function (?string $path) use ($baseUrl, $sitemap): void {
+                $sitemap->addItem(rtrim($baseUrl, '/') . $path, time(), Sitemap::DAILY);
         });
 
         $sitemap->write();
+    }
+
+    /**
+     * Returns whether a given path is in the excluded array.
+     */
+    public function isExcluded(?string $path): bool
+    {
+        return Str::is($this->exclude, $path);
     }
 }

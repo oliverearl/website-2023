@@ -5,21 +5,17 @@ namespace App\Listeners;
 use TightenCo\Jigsaw\Collection\CollectionItem;
 use TightenCo\Jigsaw\Jigsaw;
 
-class GenerateReadingTime extends BaseListener
+final class GenerateReadingTime
 {
     /**
      * Words per minute to use for calculating reading time.
      *
      * @var int
      */
-    public const WPM = 200;
+    private const WPM = 200;
 
     /**
      * Generate a reading time for each post.
-     *
-     * @param \TightenCo\Jigsaw\Jigsaw $jigsaw
-     *
-     * @return void
      */
     public function handle(Jigsaw $jigsaw): void
     {
@@ -30,10 +26,6 @@ class GenerateReadingTime extends BaseListener
 
     /**
      * Generate a reading time for a given text.
-     *
-     * @param string $text
-     *
-     * @return string
      */
     private function generateReadingTime(string $text): string
     {
