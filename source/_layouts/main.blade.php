@@ -93,8 +93,7 @@
     </li>
 
     <li>
-      Powered by <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-      and made beautiful by <a href="https://tailwindcss.com" title="Tailwind CSS">Tailwind</a>.
+      Powered by <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten" target="_blank">Jigsaw</a>.
     </li>
   </ul>
 </footer>
