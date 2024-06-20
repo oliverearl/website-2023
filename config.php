@@ -15,6 +15,10 @@ return [
     'siteKeywords' => implode(',', ['Software Engineer', 'Laravel', 'Vue.js', 'PHP', 'JavaScript', 'TypeScript']),
 
     'collections' => [
+        'pages' => [
+            'Blog' => '/blog',
+            'About' => '/about',
+        ],
         'posts' => [
             'author' => 'Oliver Earl', // Default author, if not provided in a post
             'sort' => '-date',
@@ -61,6 +65,6 @@ return [
     },
 
     'isActive' => fn(PageVariable $page, string $path): bool => (
-        Str::endsWith(trimPath($page->getPath()), trimPath($path))
+        Str::endsWith(trimPath($page->getPath()), trimPath(Str::lower($path)))
     ),
 ];
