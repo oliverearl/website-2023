@@ -16,20 +16,30 @@ return [
 
     'collections' => [
         'pages' => [
-            'Blog' => '/blog',
             'About' => '/about',
+            'Blog' => '/blog',
+            'Projects' => '/projects',
+            'Startups' => '/start-ups',
+            'Talks' => '/talks',
         ],
         'posts' => [
             'author' => 'Oliver Earl', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
+        'projects' => require_once 'projects.php',
         'categories' => [
             'path' => '/blog/categories/{filename}',
             'posts' => fn(CollectionItem $page, PageVariable $allPosts) => $allPosts->filter(
                 fn(CollectionItem $post) => $post->categories && in_array($page->getFilename(), $post->categories, true),
             ),
         ],
+    ],
+
+    'switches' => [
+        'projects' => false,
+        'startups' => true,
+        'talks' => true,
     ],
 
     'getDate' => fn(CollectionItem $page): DateTimeImmutable => (
