@@ -13,7 +13,7 @@ description: My current portfolio of projects, in and out of employment, and ope
         <div class="md:w-1/4 mb-4 md:mb-0 mr-3">
           <ul class="flex flex-col space-y-2 list-none">
             @foreach ($page->collections->projects as $name => $projects)
-              <li>
+              <li class="border-b">
                 <button
                   onclick="showTab({!! $loop->index !!})"
                   id="tab-{!! $loop->index !!}"
@@ -32,7 +32,12 @@ description: My current portfolio of projects, in and out of employment, and ope
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 @foreach ($projects as $project)
                   @if ($loop->first)
-                    <h3 class="text-2xl font-semibold mb-2">{{ $name }}</h3>
+                    <h3 class="text-2xl font-semibold">{{ $name }}
+                      @isset ($project['period'])
+                        <br/>
+                        <small class="font-light">{{ $project['period'] }}</small>
+                      @endisset
+                    </h3>
                     <div class="text-gray-700 mb-4">
                       {!! $project['description'] !!}
                       <hr class="border-b my-6" />

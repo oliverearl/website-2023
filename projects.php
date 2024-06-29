@@ -52,10 +52,15 @@ return [
         [
             'description' => '
             <p>
-            Unfortunately, I can\'t reveal too much about every project I work on. But here\'s a reverse-chronological
-            list of the amazing work that I have had the opportunity to be a part of during my time at Stickee.
+            Unfortunately, I can\'t reveal too much about every project I\'ve worked on. But here\'s a 
+            reverse-chronological list of the amazing work that I have had the opportunity to be a part of during my 
+            time at <a href="https://www.stickee.co.uk" target="_blank">Stickee</a>.
+            </p>
+            <p>
+            <code>TODO: Add screenshots!</code>
             </p>
             ',
+            'period' => '2021 - Present',
         ],
         [
             'name' => 'Magpie DBX',
@@ -104,7 +109,8 @@ return [
             'name' => 'Asda Gift Cards',
             'description' => '
             <p>
-            Independent contributor on Asda\'s gift card ecommerce platform since 2021, now core developer.
+            Core developer since 2024, and independent contributor since 2021, for Asda\'s hugely successful
+            gift card ecommerce platform.
             </p> 
             ',
             'href' => 'https://www.asdagiftcards.com',
@@ -134,6 +140,7 @@ return [
     'Stickee (OSS)' => [
         [
             'description' => 'I\'m ',
+            'period' => '2021 - Present',
         ],
         [
             'name' => 'Finch',
@@ -205,6 +212,7 @@ return [
     'Nightline Association' => [
         [
             'description' => 'Open source projects',
+            'period' => '2022 - Present',
         ],
         [
             'name' => 'Portal',
