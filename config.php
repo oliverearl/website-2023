@@ -19,6 +19,7 @@ return [
             'About' => '/about',
             'Blog' => '/blog',
             'Projects' => '/projects',
+            'Publications' => '/publications',
             'Startups' => '/start-ups',
             'Talks' => '/talks',
         ],
@@ -37,9 +38,10 @@ return [
     ],
 
     'switches' => [
-        'projects' => false,
+        'projects' => true,
+        'publications' => false,
         'startups' => true,
-        'talks' => true,
+        'talks' => false,
     ],
 
     'getDate' => fn(CollectionItem $page): DateTimeImmutable => (
