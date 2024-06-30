@@ -38,7 +38,7 @@ description: A little bit about me
 
   <h2 class="mb-2">Still curious?</h2>
   <p class="mb-6">
-    If you still want to learn more about my work, or are interesting in hiring me, I'd love it if you could reach out
+    If you still want to learn more about my work, or are interested in hiring me, I'd love it if you could reach out
     to me over on <a href="https://www.linkedin.com/in/oliverearl" target="_blank">LinkedIn</a>. Thanks so much!
   </p>
 @endsection
