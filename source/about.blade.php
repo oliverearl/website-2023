@@ -24,18 +24,6 @@ description: A little bit about me
     someone to talk in an anonymous, judgement-free environment.
   </p>
 
-  <p class="mb-6">
-    After being severely unwell with COVID-19, I began work on
-    <a href="https://www.github.com/extracontinue" target="_blank">ExtraContinue</a>, a website and app to help you
-    organise messages and events should the unforeseeable occur. I’m hoping to have a working release by the end of the
-    year.
-  </p>
-
-  <p class="mb-6">
-    Lastly, I’m hoping to some day release numerous video games written in Godot under my indie game studio,
-    <a href="https://www.petrobolos.com" target="_blank">Petrobolos</a>. Emphasis on <em>some day</em>!
-  </p>
-
   <h2 class="mb-2">Still curious?</h2>
   <p class="mb-6">
     If you still want to learn more about my work, or are interested in hiring me, I'd love it if you could reach out
