@@ -197,14 +197,22 @@ return [
     ],
     'Stickee (OSS)' => [
         [
-            'description' => 'I\'m ',
+            'description' => '
+            <p>
+            Open source initiatives that grew out of the work I did or was a part of, and have
+            contributed significantly to.
+            </p>
+            <p>
+            We liked to name both internal and public-facing products after birds.
+            </p>
+            ',
             'period' => '2021 - Present',
         ],
         [
             'name' => 'Finch',
             'description' => '
             <p>
-            Finch is a tool for asynchronously processing scraped product pages and 
+            Finch is a library for asynchronously processing scraped product pages and 
             normalising their technical specifications into well-defined data objects using AI and ontologies. 
             <strong>It\'s still currently in closed development.</strong>
             </p>
@@ -238,7 +246,7 @@ return [
             'name' => 'Raven (Activity Log)',
             'description' => '
             <p>
-            Raven is a fork of the popular <code>spatie/activity-log</code> package with additional features, 
+            Raven is a fork of the popular <code>spatie/activity-log</code> library with additional features, 
             including built-in correlation tracking, severity tagging, automated alerts, and encrypted properties.
             </p>
             
@@ -254,7 +262,7 @@ return [
             'name' => 'Shrike (Instrumentation)',
             'description' => '
             <p>
-            Shrike is an open source instrumentation module, used for exporting events primarily into
+            Shrike is an open source instrumentation library, used for exporting events primarily into
             OpenTelemetry, although there are multiple adapters available. 
             </p>
             
