@@ -48,6 +48,64 @@ return [
             'technologies' => ['PHP', 'GraphQL'],
         ],
     ],
+    'Nightline Association' => [
+        [
+            'description' => '
+            <p>
+            I have been volunteering with the <a href="https://www.nightline.ac.uk" target="_blank">Nightline Association</a>
+            since 2015, and joined the software development team in 2022 to focus my efforts where they could make the 
+            most impact.
+            </p>
+            ',
+            'period' => '2022 - Present',
+        ],
+        [
+            'name' => 'Portal',
+            'description' => '
+            <p>
+            Portal is a modular, monolithic application that is used to fulfill the digital needs of Nightlines 
+            and the Nightline Association.
+            </p>
+            <p>
+            It currently has modules for logging call data, anonymous real-time 
+            instant messaging, statistics rendering and exportation, and most recently, a module to streamline
+            accreditation work by the Quality Standards team.
+            </p>
+            <p>
+            I have been a leading developer on the project since joining the team, and continue to contribute
+            features, bugfixes, improvements, and tests to the endeavour.
+            </p>
+            ',
+            'href' => 'https://portal.nightline.ac.uk',
+            'technologies' => ['Laravel', 'Vue.js', 'Inertia.js', 'MySQL', 'Websockets'],
+            'closed' => true,
+        ],
+        [
+            'name' => 'IM Ringer',
+            'description' => '
+            <p>
+            IM Ringer is an Electron-based desktop application used to alert Nightlines of incoming calls
+            in a more reliable way than through the web browser alone.
+            </p>
+            ',
+            'href' => 'https://portal.nightline.ac.uk',
+            'technologies' => ['Electron', 'Vue.js'],
+            'closed' => true,
+        ],
+        [
+            'name' => 'WordPress Plugins',
+            'description' => '
+            <p>
+            A range of WordPress plugins are available for Nightlines to use on their websites, including a widget
+            that connects to Portal\'s API indicating whether their IM service is currently open, away, or closed, and
+            most recently an interactive embeddable widget that allows students to find the Nightline that covers their 
+            academic institution.
+            </p>
+            ',
+            'href' => 'https://www.github.com/nightline-association/wordpress-plugins',
+            'technologies' => ['WordPress', 'Vue.js'],
+        ],
+    ],
     'Stickee' => [
         [
             'description' => '
@@ -209,53 +267,4 @@ return [
             'technologies' => ['PHP', 'Laravel', 'InfluxDB', 'OpenTelemetry']
         ],
     ],
-    'Nightline Association' => [
-        [
-            'description' => 'Open source projects',
-            'period' => '2022 - Present',
-        ],
-        [
-            'name' => 'Portal',
-            'description' => '
-            <p>
-            Portal is a modular, monolithic application that is used to fulfill the digital needs of Nightlines 
-            and the Nightline Association.
-            </p>
-            <p>
-            It currently has modules for logging call data, anonymous real-time 
-            instant messaging, statistics rendering and exportation, and most recently, a module to streamline
-            accreditation work by the Quality Standards team.
-            </p>
-            ',
-            'href' => 'https://portal.nightline.ac.uk',
-            'technologies' => ['Laravel', 'Vue.js', 'Inertia.js', 'MySQL', 'Websockets'],
-            'closed' => true,
-        ],
-        [
-            'name' => 'IM Ringer',
-            'description' => '
-            <p>
-            IM Ringer is an Electron-based desktop application used to alert Nightlines of incoming calls
-            in a more reliable way than through the web browser alone.
-            </p>
-            ',
-            'href' => 'https://portal.nightline.ac.uk',
-            'technologies' => ['Electron', 'Vue.js'],
-            'closed' => true,
-        ],
-        [
-            'name' => 'WordPress Plugins',
-            'description' => '
-            <p>
-            A range of WordPress plugins are available for Nightlines to use on their websites, including a widget
-            that connects to Portal\'s API indicating whether their IM service is currently open, away, or closed, and
-            most recently an interactive embeddable widget that allows students to find the Nightline that covers their 
-            academic institution.
-            </p>
-            ',
-            'href' => 'https://www.github.com/nightline-association/wordpress-plugins',
-            'technologies' => ['WordPress', 'Vue.js'],
-        ],
-    ],
-
 ];
