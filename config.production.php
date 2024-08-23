@@ -6,7 +6,7 @@ return [
     'baseUrl' => 'https://www.oliverearl.co.uk',
     'production' => true,
     'switches' => [
-        'projects' => true,
+        'projects' => false,
         'publications' => false,
         'startups' => false,
         'talks' => false,
